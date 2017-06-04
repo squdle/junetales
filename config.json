@@ -1,0 +1,49 @@
+{
+    "words" : 30,
+    "sites" : 
+    {
+        "pinterest" :
+        {
+            "prefix"    : "https://www.pinterest.com/search/pins/?q=",
+            "postfix"   : "",
+            "seperator" : "%20",
+            "max_words" : 5
+        },
+        "flickr" :
+        {
+            "prefix"    : "https://www.flickr.com/search/?text=",
+            "postfix"   : "",
+            "seperator" : " OR ",
+            "max_words" : 3
+        },
+        "google" :
+        {
+            "prefix"    : "https://www.google.com/search?q=",
+            "postfix"   : "&tbm=isch",
+            "seperator" : " ",
+            "max_words" : 10
+        },
+        "designspiration" :
+        {
+            "prefix"    : "http://www.designspiration.net/search/saves/?q=",
+            "postfix"   : "&tbm=isch",
+            "seperator" : " ",
+            "max_words" : 5
+        },
+        "pixabay" :
+        {
+            "prefix"    : "http://www.pixabay.com/en/photos/?q=",
+            "postfix"   : "&order=popular",
+            "seperator" : "+OR+",
+            "max_words" : 5
+        },
+        "archive.org" :
+        {
+            "prefix"    : "https://archive.org/search.php?query=(",
+            "postfix"   : ")+AND+mediatype:(image)",
+            "seperator" : "+OR+",
+            "max_words" : 10
+        }
+            
+    }
+}
